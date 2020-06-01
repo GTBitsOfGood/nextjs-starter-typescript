@@ -1,8 +1,8 @@
 # nextjs-starter-typescript
 
-- This is a template repository that illustrates how to set-up a Next.js project using TypeScript.
-- It was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and includes ESLint, Prettier and TypeScript compiler configs to provide a smooth development experience. Your team can simply use this template repo and hit the ground running!
-- The TypeScript compiler has also been configured to support [absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases), see [example](pages/index.tsx#L5). So no more winding relative paths: `import Something from "../../../where/is/something"`.
+- This is a template repository that illustrates how to set-up a Next.js project using TypeScript. It was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+- I have included ESLint, Prettier and TypeScript compiler configs to provide a smooth development experience. Simply run `yarn lint` to lint and format your code, and to check it for type errors. A pre-commit hook has been set-up to enforce these strict standards. Your team can use this template repo to hit the ground running!
+- The TypeScript compiler has been configured to support [absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases), see [this](pages/index.tsx#L5) as an example. So no more winding relative paths: `import Something from "../../../where/is/something"`.
 - **Note:** You will notice that the [`.gitignore`](.gitignore) doesn't specify `.env` files. This is [intentional](https://nextjs.org/docs/basic-features/environment-variables) for Next.js versions 9.4 and up. Always refer to the [official docs](https://nextjs.org/docs/) for current best practices.
 
 ## TyepeScript? 🤔
