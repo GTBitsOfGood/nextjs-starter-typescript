@@ -9,7 +9,7 @@
 
 ### What Is It
 
-TypeScript is a superset of JavaScript that adds static typing to the language and compiles to plain old JavaScript. This means that if you already know how to write JavaScript, you already know how to write TypeScript! Simply rename your `.js` and `.jsx` files to `.ts` and `.tsx`, respectively.
+TypeScript is a superset of JavaScript that adds static typing to the language and it compiles to plain old JavaScript. This means that if you already know how to write JavaScript, you already know how to write TypeScript! Simply rename your `.js` and `.jsx` files to `.ts` and `.tsx`, respectively.
 
 ### Why Use It
 
@@ -17,11 +17,11 @@ JavaScript is a notoriously difficult language to debug. It offers little to non
 
 There are several other reasons to choose TypeScript: it supports latest ECMAScript features while providing backward compatibility with older browsers, there is amazing IDE and tooling support for it, most of the widely used node packages provide their types so that you can use them with TypeScript, and its code is all [open-sourced](https://github.com/microsoft/TypeScript), backed by Microsoft!
 
-The developer community loves TypeScript ♥️😍. Don't believe me? TypeScript was the [second most loved language in Stack Overflow's 2020 Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved), beating out Python, Java, JavaScript, etc. Two out of the three front-end framework titans - Angular and Vue.js 3.0 - are primarily written in TypeScript (the React team also embraces types, but through [Flow](https://flow.org), which is a static type checker for JavaScript).
+The developer community loves TypeScript ♥️😍. Don't believe me? TypeScript was the [second most loved language in Stack Overflow's 2020 Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved), beating out Python, Java, JavaScript, etc. Two out of the three front-end framework titans - [Angular](https://github.com/angular/angular) and [Vue.js 3.0](https://github.com/vuejs/vue-next) - are primarily written in TypeScript (the [React](https://github.com/facebook/react) team also embraces types, but through [Flow](https://flow.org), which is a static type checker for JavaScript).
 
 ### So What's the Catch?
 
-To fully utilize the power of TypeScript, you will have to learn its type system. This is not complicated and will remind you of Java. I would recommend [this](https://learnxinyminutes.com/docs/typescript/) as a resource for learning the type system, and [this](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet/blob/master/README.md#section-2-getting-started) as a cheat sheet for using TypeScript with React.
+To fully utilize the power of TypeScript, you will have to learn its type system. It's not complicated and will remind you of Java. I would recommend [this](https://learnxinyminutes.com/docs/typescript/) as a resource for learning the type system, and [this](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet/blob/master/README.md#section-2-getting-started) as a cheat sheet for using TypeScript with React.
 
 **This project also includes an [example](components/MyDummyComponent.tsx) of a strictly typed React functional component.**
 
