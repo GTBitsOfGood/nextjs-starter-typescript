@@ -1,6 +1,10 @@
-import Head from 'next/head'
+import { NextPage } from "next";
+import Head from "next/head";
 
-export default function Home() {
+// No need to use a relative path, the tsconfig.json has been configured for module aliasing! See: https://nextjs.org/docs/advanced-features/module-path-aliases
+import MyDummyComponent from "components/MyDummyComponent";
+
+const Home: NextPage = () => {
   return (
     <div className="container">
       <Head>
@@ -14,7 +18,9 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          <MyDummyComponent name="BoG dev">
+            Get started by editing <code>pages/index.js</code>
+          </MyDummyComponent>
         </p>
 
         <div className="grid">
@@ -54,7 +60,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
@@ -205,5 +211,7 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
-}
+  );
+};
+
+export default Home;
