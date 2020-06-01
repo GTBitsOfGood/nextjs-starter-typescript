@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
         <p className="description">
           <MyDummyComponent name="BoG dev">
-            Get started by editing <code>pages/index.js</code>
+            Get started by editing <code>pages/index.tsx</code>
           </MyDummyComponent>
         </p>
 
